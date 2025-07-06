@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-06T17:16:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">donggeonpark.github.io</title><subtitle>An amazing website.</subtitle><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><entry><title type="html">Git 기초 명령어 정리</title><link href="http://localhost:4000/%EA%B0%9C%EB%B0%9C/git-basics/" rel="alternate" type="text/html" title="Git 기초 명령어 정리" /><published>2025-07-06T00:00:00+09:00</published><updated>2025-07-06T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B0%9C%EB%B0%9C/git-basics</id><content type="html" xml:base="http://localhost:4000/%EA%B0%9C%EB%B0%9C/git-basics/"><![CDATA[<h2 id="git-기초-명령어-정리-">Git 기초 명령어 정리 📝</h2>
+
+<p>Git은 버전 관리를 위한 필수 도구입니다. 자주 사용하는 명령어들을 정리해보겠습니다.</p>
+
+<h3 id="기본-설정">기본 설정</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 사용자 정보 설정</span>
+git config <span class="nt">--global</span> user.name <span class="s2">"Your Name"</span>
+git config <span class="nt">--global</span> user.email <span class="s2">"your.email@example.com"</span>
+
+<span class="c"># 기본 브랜치 설정</span>
+git config <span class="nt">--global</span> init.defaultBranch main
+</code></pre></div></div>
+
+<h3 id="저장소-초기화-및-클론">저장소 초기화 및 클론</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 새 저장소 초기화</span>
+git init
+
+<span class="c"># 원격 저장소 클론</span>
+git clone &lt;repository-url&gt;
+</code></pre></div></div>
+
+<h3 id="기본-작업-흐름">기본 작업 흐름</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 파일 상태 확인</span>
+git status
+
+<span class="c"># 파일 추가</span>
+git add &lt;filename&gt;
+git add <span class="nb">.</span>  <span class="c"># 모든 파일 추가</span>
+
+<span class="c"># 커밋</span>
+git commit <span class="nt">-m</span> <span class="s2">"커밋 메시지"</span>
+
+<span class="c"># 원격 저장소에 푸시</span>
+git push origin main
+</code></pre></div></div>
+
+<h3 id="브랜치-관리">브랜치 관리</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 브랜치 목록 확인</span>
+git branch
+
+<span class="c"># 새 브랜치 생성</span>
+git branch &lt;branch-name&gt;
+
+<span class="c"># 브랜치 전환</span>
+git checkout &lt;branch-name&gt;
+git switch &lt;branch-name&gt;  <span class="c"># Git 2.23+</span>
+
+<span class="c"># 브랜치 생성 및 전환</span>
+git checkout <span class="nt">-b</span> &lt;branch-name&gt;
+</code></pre></div></div>
+
+<h3 id="변경사항-확인">변경사항 확인</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 변경사항 확인</span>
+git diff
+
+<span class="c"># 커밋 히스토리 확인</span>
+git log
+git log <span class="nt">--oneline</span>  <span class="c"># 간단한 형태</span>
+</code></pre></div></div>
+
+<h3 id="되돌리기">되돌리기</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 마지막 커밋 수정</span>
+git commit <span class="nt">--amend</span>
+
+<span class="c"># 파일 되돌리기</span>
+git checkout <span class="nt">--</span> &lt;filename&gt;
+
+<span class="c"># 브랜치 되돌리기</span>
+git reset <span class="nt">--hard</span> HEAD~1
+</code></pre></div></div>
+
+<h3 id="원격-저장소">원격 저장소</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 원격 저장소 추가</span>
+git remote add origin &lt;repository-url&gt;
+
+<span class="c"># 원격 저장소에서 가져오기</span>
+git pull origin main
+
+<span class="c"># 원격 저장소 정보 확인</span>
+git remote <span class="nt">-v</span>
+</code></pre></div></div>
+
+<h3 id="유용한-팁">유용한 팁</h3>
+<ul>
+  <li>커밋 메시지는 명확하고 간결하게 작성</li>
+  <li>자주 커밋하기</li>
+  <li>브랜치를 활용한 기능 개발</li>
+  <li>.gitignore 파일 활용</li>
+</ul>
+
+<p>Git을 잘 활용하면 팀 프로젝트에서 효율적으로 협업할 수 있습니다!</p>]]></content><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><category term="개발" /><category term="git" /><category term="version-control" /><category term="개발도구" /><summary type="html"><![CDATA[Git 기초 명령어 정리 📝]]></summary></entry><entry><title type="html">Jekyll 블로그 설정 완료!</title><link href="http://localhost:4000/%EA%B0%9C%EB%B0%9C/jekyll-setup/" rel="alternate" type="text/html" title="Jekyll 블로그 설정 완료!" /><published>2025-07-06T00:00:00+09:00</published><updated>2025-07-06T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B0%9C%EB%B0%9C/jekyll-setup</id><content type="html" xml:base="http://localhost:4000/%EA%B0%9C%EB%B0%9C/jekyll-setup/"><![CDATA[<h2 id="jekyll-블로그-설정을-완료했습니다-">Jekyll 블로그 설정을 완료했습니다! 🎉</h2>
+
+<h3 id="설정한-것들">설정한 것들</h3>
+<ul>
+  <li>✅ Minimal Mistakes 테마 적용</li>
+  <li>✅ 카테고리 및 태그 아카이브 페이지 생성</li>
+  <li>✅ About 페이지 추가</li>
+  <li>✅ 포스트 목록 페이지 생성</li>
+  <li>✅ 메인 페이지 개선</li>
+</ul>
+
+<h3 id="다음-단계">다음 단계</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />더 많은 포스트 작성</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />댓글 시스템 추가</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />검색 기능 개선</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />커스텀 도메인 설정</li>
+</ul>
+
+<h3 id="느낀-점">느낀 점</h3>
+<p>Jekyll과 GitHub Pages를 사용해서 블로그를 만드는 것이 생각보다 간단했습니다. 
+특히 Minimal Mistakes 테마가 정말 예쁘고 사용하기 편리하네요!</p>
+
+<p>앞으로 개발 관련 글들을 많이 써서 지식을 공유하고 싶습니다.</p>]]></content><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><category term="개발" /><category term="jekyll" /><category term="github-pages" /><category term="블로그" /><category term="설정" /><summary type="html"><![CDATA[Jekyll 블로그 설정을 완료했습니다! 🎉]]></summary></entry><entry><title type="html">React Hooks 완벽 가이드</title><link href="http://localhost:4000/%EA%B0%9C%EB%B0%9C/react-hooks/" rel="alternate" type="text/html" title="React Hooks 완벽 가이드" /><published>2025-07-06T00:00:00+09:00</published><updated>2025-07-06T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B0%9C%EB%B0%9C/react-hooks</id><content type="html" xml:base="http://localhost:4000/%EA%B0%9C%EB%B0%9C/react-hooks/"><![CDATA[<h2 id="react-hooks란">React Hooks란?</h2>
+
+<p>React Hooks는 함수형 컴포넌트에서 상태와 생명주기를 사용할 수 있게 해주는 기능입니다.</p>
+
+<h3 id="주요-hooks">주요 Hooks</h3>
+
+<h4 id="1-usestate">1. useState</h4>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="p">[</span><span class="nx">count</span><span class="p">,</span> <span class="nx">setCount</span><span class="p">]</span> <span class="o">=</span> <span class="nf">useState</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h4 id="2-useeffect">2. useEffect</h4>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">useEffect</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">컴포넌트가 마운트되었습니다</span><span class="dl">'</span><span class="p">);</span>
+  <span class="k">return </span><span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">컴포넌트가 언마운트됩니다</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">};</span>
+<span class="p">},</span> <span class="p">[]);</span>
+</code></pre></div></div>
+
+<h4 id="3-usecontext">3. useContext</h4>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">theme</span> <span class="o">=</span> <span class="nf">useContext</span><span class="p">(</span><span class="nx">ThemeContext</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="커스텀-hooks-만들기">커스텀 Hooks 만들기</h3>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nf">useCounter</span><span class="p">(</span><span class="nx">initialValue</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">const</span> <span class="p">[</span><span class="nx">count</span><span class="p">,</span> <span class="nx">setCount</span><span class="p">]</span> <span class="o">=</span> <span class="nf">useState</span><span class="p">(</span><span class="nx">initialValue</span><span class="p">);</span>
+  
+  <span class="kd">const</span> <span class="nx">increment</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nf">setCount</span><span class="p">(</span><span class="nx">count</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+  <span class="kd">const</span> <span class="nx">decrement</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="nf">setCount</span><span class="p">(</span><span class="nx">count</span> <span class="o">-</span> <span class="mi">1</span><span class="p">);</span>
+  
+  <span class="k">return</span> <span class="p">{</span> <span class="nx">count</span><span class="p">,</span> <span class="nx">increment</span><span class="p">,</span> <span class="nx">decrement</span> <span class="p">};</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="장점">장점</h3>
+<ul>
+  <li>코드 재사용성 향상</li>
+  <li>로직 분리 용이</li>
+  <li>테스트하기 쉬움</li>
+  <li>더 간결한 코드</li>
+</ul>
+
+<p>Hooks를 잘 활용하면 더 깔끔하고 유지보수하기 쉬운 React 애플리케이션을 만들 수 있습니다!</p>]]></content><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><category term="개발" /><category term="react" /><category term="hooks" /><category term="javascript" /><category term="frontend" /><summary type="html"><![CDATA[React Hooks란?]]></summary></entry><entry><title type="html">첫 블로그 글</title><link href="http://localhost:4000/%EB%B8%94%EB%A1%9C%EA%B7%B8/First/" rel="alternate" type="text/html" title="첫 블로그 글" /><published>2025-07-06T00:00:00+09:00</published><updated>2025-07-06T00:00:00+09:00</updated><id>http://localhost:4000/%EB%B8%94%EB%A1%9C%EA%B7%B8/First</id><content type="html" xml:base="http://localhost:4000/%EB%B8%94%EB%A1%9C%EA%B7%B8/First/"><![CDATA[<p>안녕하세요! 블로그 시작합니다.</p>]]></content><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><category term="블로그" /><category term="jekyll" /><category term="github-pages" /><category term="시작" /><summary type="html"><![CDATA[안녕하세요! 블로그 시작합니다.]]></summary></entry><entry><title type="html">개발자가 되면서 생긴 좋은 습관들</title><link href="http://localhost:4000/%EC%9D%BC%EC%83%81/coding-habits/" rel="alternate" type="text/html" title="개발자가 되면서 생긴 좋은 습관들" /><published>2025-07-06T00:00:00+09:00</published><updated>2025-07-06T00:00:00+09:00</updated><id>http://localhost:4000/%EC%9D%BC%EC%83%81/coding-habits</id><content type="html" xml:base="http://localhost:4000/%EC%9D%BC%EC%83%81/coding-habits/"><![CDATA[<h2 id="개발자가-되면서-생긴-좋은-습관들-">개발자가 되면서 생긴 좋은 습관들 📚</h2>
+
+<p>개발을 시작한 지 얼마 되지 않았지만, 이미 몇 가지 좋은 습관들이 생겼습니다.</p>
+
+<h3 id="1-문제-해결-능력-향상-">1. 문제 해결 능력 향상 🧩</h3>
+<ul>
+  <li>문제를 작은 단위로 나누어 생각하는 습관</li>
+  <li>에러 메시지를 꼼꼼히 읽는 습관</li>
+  <li>구글링을 통한 정보 검색 능력 향상</li>
+</ul>
+
+<h3 id="2-체계적인-기록-">2. 체계적인 기록 📝</h3>
+<ul>
+  <li>코드 작성 시 주석 달기</li>
+  <li>학습한 내용을 블로그에 정리</li>
+  <li>프로젝트 진행 상황 기록</li>
+</ul>
+
+<h3 id="3-지속적인-학습-">3. 지속적인 학습 📖</h3>
+<ul>
+  <li>새로운 기술에 대한 호기심</li>
+  <li>온라인 강의나 문서 읽기</li>
+  <li>다른 개발자들의 코드 분석</li>
+</ul>
+
+<h3 id="4-시간-관리-">4. 시간 관리 ⏰</h3>
+<ul>
+  <li>작업 시간 추적</li>
+  <li>우선순위 설정</li>
+  <li>휴식과 작업의 균형</li>
+</ul>
+
+<h3 id="5-커뮤니케이션-능력-">5. 커뮤니케이션 능력 💬</h3>
+<ul>
+  <li>기술적 내용을 쉽게 설명하기</li>
+  <li>팀 프로젝트에서 협업하기</li>
+  <li>온라인 커뮤니티 참여</li>
+</ul>
+
+<h3 id="앞으로의-목표">앞으로의 목표</h3>
+<ul>
+  <li>더 많은 오픈소스 프로젝트 참여</li>
+  <li>기술 블로그 꾸준히 운영</li>
+  <li>다른 개발자들과 네트워킹</li>
+</ul>
+
+<p>개발은 단순히 코드를 작성하는 것이 아니라, 문제를 해결하고 사람들과 소통하는 과정이라고 생각합니다.</p>]]></content><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><category term="일상" /><category term="개발" /><category term="습관" /><category term="성장" /><category term="일상" /><summary type="html"><![CDATA[개발자가 되면서 생긴 좋은 습관들 📚]]></summary></entry><entry><title type="html">블로그 시작의 마음가짐</title><link href="http://localhost:4000/%EC%9D%BC%EC%83%81/daily-thoughts/" rel="alternate" type="text/html" title="블로그 시작의 마음가짐" /><published>2025-07-06T00:00:00+09:00</published><updated>2025-07-06T00:00:00+09:00</updated><id>http://localhost:4000/%EC%9D%BC%EC%83%81/daily-thoughts</id><content type="html" xml:base="http://localhost:4000/%EC%9D%BC%EC%83%81/daily-thoughts/"><![CDATA[<h2 id="블로그를-시작하며-">블로그를 시작하며 📝</h2>
+
+<p>오늘 드디어 개인 블로그를 시작했습니다. 
+기술 블로그를 운영하면서 얻고 싶은 것들이 많습니다.</p>
+
+<h3 id="블로그를-시작한-이유">블로그를 시작한 이유</h3>
+<ol>
+  <li><strong>지식 공유</strong>: 배운 것을 정리하고 다른 사람과 나누고 싶습니다</li>
+  <li><strong>기록</strong>: 공부한 내용을 체계적으로 기록하고 싶습니다</li>
+  <li><strong>성장</strong>: 글쓰기를 통해 더 깊이 있는 학습을 하고 싶습니다</li>
+  <li><strong>네트워킹</strong>: 같은 관심사를 가진 분들과 소통하고 싶습니다</li>
+</ol>
+
+<h3 id="목표">목표</h3>
+<ul>
+  <li>주 2-3개 포스트 작성하기</li>
+  <li>실용적인 개발 팁 공유하기</li>
+  <li>개인 프로젝트 기록하기</li>
+  <li>독자들과 소통하기</li>
+</ul>
+
+<h3 id="첫-번째-포스트">첫 번째 포스트</h3>
+<p>첫 번째 포스트로 Jekyll 블로그 설정 과정을 정리했습니다.
+앞으로 더 많은 유용한 내용으로 채워나가겠습니다!</p>
+
+<hr />
+
+<p><em>작은 시작이 큰 변화를 만들어낼 것이라 믿습니다.</em> 🌱</p>]]></content><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><category term="일상" /><category term="블로그" /><category term="시작" /><category term="마음가짐" /><category term="기록" /><summary type="html"><![CDATA[블로그를 시작하며 📝]]></summary></entry></feed>
