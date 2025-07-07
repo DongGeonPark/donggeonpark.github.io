@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-06T17:16:04+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">donggeonpark.github.io</title><subtitle>An amazing website.</subtitle><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><entry><title type="html">Git 기초 명령어 정리</title><link href="http://localhost:4000/%EA%B0%9C%EB%B0%9C/git-basics/" rel="alternate" type="text/html" title="Git 기초 명령어 정리" /><published>2025-07-06T00:00:00+09:00</published><updated>2025-07-06T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B0%9C%EB%B0%9C/git-basics</id><content type="html" xml:base="http://localhost:4000/%EA%B0%9C%EB%B0%9C/git-basics/"><![CDATA[<h2 id="git-기초-명령어-정리-">Git 기초 명령어 정리 📝</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-07T22:49:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">donggeonpark.github.io</title><subtitle>An amazing website.</subtitle><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><entry><title type="html">Git 기초 명령어 정리</title><link href="http://localhost:4000/%EA%B0%9C%EB%B0%9C/git-basics/" rel="alternate" type="text/html" title="Git 기초 명령어 정리" /><published>2025-07-06T00:00:00+09:00</published><updated>2025-07-06T00:00:00+09:00</updated><id>http://localhost:4000/%EA%B0%9C%EB%B0%9C/git-basics</id><content type="html" xml:base="http://localhost:4000/%EA%B0%9C%EB%B0%9C/git-basics/"><![CDATA[<h2 id="git-기초-명령어-정리-">Git 기초 명령어 정리 📝</h2>
 
 <p>Git은 버전 관리를 위한 필수 도구입니다. 자주 사용하는 명령어들을 정리해보겠습니다.</p>
 
@@ -226,4 +226,162 @@ git remote <span class="nt">-v</span>
 
 <hr />
 
-<p><em>작은 시작이 큰 변화를 만들어낼 것이라 믿습니다.</em> 🌱</p>]]></content><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><category term="일상" /><category term="블로그" /><category term="시작" /><category term="마음가짐" /><category term="기록" /><summary type="html"><![CDATA[블로그를 시작하며 📝]]></summary></entry></feed>
+<p><em>작은 시작이 큰 변화를 만들어낼 것이라 믿습니다.</em> 🌱</p>]]></content><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><category term="일상" /><category term="블로그" /><category term="시작" /><category term="마음가짐" /><category term="기록" /><summary type="html"><![CDATA[블로그를 시작하며 📝]]></summary></entry><entry><title type="html">그래픽카드 비교 - RTX 50 시리즈 vs AMD RX 9000 시리즈</title><link href="http://localhost:4000/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/%EA%B7%B8%EB%9E%98%ED%94%BD%EC%B9%B4%EB%93%9C/gpu-comparison/" rel="alternate" type="text/html" title="그래픽카드 비교 - RTX 50 시리즈 vs AMD RX 9000 시리즈" /><published>2025-07-06T00:00:00+09:00</published><updated>2025-07-06T00:00:00+09:00</updated><id>http://localhost:4000/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/%EA%B7%B8%EB%9E%98%ED%94%BD%EC%B9%B4%EB%93%9C/gpu-comparison</id><content type="html" xml:base="http://localhost:4000/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/%EA%B7%B8%EB%9E%98%ED%94%BD%EC%B9%B4%EB%93%9C/gpu-comparison/"><![CDATA[<p>아래는 <strong>RTX 50 시리즈</strong>와 <strong>AMD RX 9000 시리즈</strong>의 비교 정리입니다. 최신 리뷰와 벤치마크를 기반으로 성능, 기능, 가격 등 주요 항목의 차이를 쉽게 확인할 수 있습니다.</p>
+
+<hr />
+
+<h2 id="-아키텍처-및-출시-정보">🚀 아키텍처 및 출시 정보</h2>
+
+<ul>
+  <li>
+    <p><strong>NVIDIA RTX 50 시리즈</strong></p>
+
+    <ul>
+      <li><strong>아키텍처</strong>: Blackwell (CES 2025 발표, 1월 30일 RTX 5080/5090 출시)</li>
+      <li><strong>모델</strong>: RTX 5090 (엔thu), RTX 5080 (하이엔드), RTX 5070 Ti / 5070 (미드), RTX 5060(Ti) / 5050 (엔트리)</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>AMD RX 9000 시리즈</strong></p>
+
+    <ul>
+      <li><strong>아키텍처</strong>: RDNA 4 (2025년 3월~6월 출시됨)</li>
+      <li><strong>모델</strong>: RX 9060 XT, RX 9070, RX 9070 XT (각기 8GB~16GB VRAM)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-성능-비교">💡 성능 비교</h2>
+
+<h3 id="nvidia-rtx-50-시리즈">NVIDIA RTX 50 시리즈</h3>
+
+<ul>
+  <li>
+    <p><strong>RTX 5090</strong>:</p>
+
+    <ul>
+      <li>RTX 4090 대비 DLSS 4×와 MFG(off 계측) 시 성능 최대 30–33% 향상</li>
+      <li>다만 DLSS 4 MFG는 일부 게임에서 <strong>입력 지연(latency)</strong> 문제 언급 </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>RTX 5080</strong>:</p>
+
+    <ul>
+      <li>RTX 4080 Super 대비 약 15% 성능 향상 </li>
+      <li>가격은 $999, 성능 대비 다소 아쉬움 있음 </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>RTX 5070 Ti / 5070</strong>:</p>
+
+    <ul>
+      <li>RTX 4070 대비 약 20% 향상, RTX 4090에 근접한 가성비 주장</li>
+      <li>하드 코어 성능보단 <strong>DLSS 4, 멀티 프레임 생성</strong>에 크게 의존</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="amd-rx-9000-시리즈">AMD RX 9000 시리즈</h3>
+
+<ul>
+  <li>
+    <p><strong>RX 9070 XT</strong>:</p>
+
+    <ul>
+      <li>RDNA4 기반, RTX 4080 Super 및 RTX 5070 Ti와 비슷한 성능</li>
+      <li>1440p ~ 4K 주력, FSR 4, 좋은 레이 트레이싱 개선</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>RX 9070</strong>:</p>
+
+    <ul>
+      <li>평균 38–42% 성능 향상 (7900 GRE 대비)</li>
+      <li>MSRP는 $549~$599, RTX 5070 대비 경쟁력 있는 가격</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>RX 9060 XT (16GB)</strong>:</p>
+
+    <ul>
+      <li>1080p~1440p 성능 우수, 16GB VRAM으로 미래 대비</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="️-가격-및-전력-효율">⚖️ 가격 및 전력 효율</h2>
+
+<ul>
+  <li>
+    <p><strong>가격대</strong></p>
+
+    <ul>
+      <li>NVIDIA: 메인급 $999~1999 (RTX 5080, 5090) </li>
+      <li>AMD: RX 9070 XT 약 $599, RX 9070 약 $549 수준</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>전력 소모</strong></p>
+
+    <ul>
+      <li>RTX 5090: 575 W 권장 PSU</li>
+      <li>RX 9070 XT: 304 W TDP, RX 9070은 220 W </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="-요약-비교">🧩 요약 비교</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>항목</th>
+      <th>RTX 50 시리즈</th>
+      <th>RX 9000 시리즈</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>아키텍처</td>
+      <td>Blackwell + DLSS 4 MFG</td>
+      <td>RDNA 4 + FSR 4</td>
+    </tr>
+    <tr>
+      <td>성능</td>
+      <td>최상위 RTX 5090: 최고 성능, DLSS 의존</td>
+      <td>RX 9070 XT: 1440p~4K에서 가성비 좋음</td>
+    </tr>
+    <tr>
+      <td>가격</td>
+      <td>상위권 고가 ($999~1999)</td>
+      <td>중상~상위급, 경쟁력 있는 가격 ($549~599)</td>
+    </tr>
+    <tr>
+      <td>전력</td>
+      <td>높음 (특히 5090)</td>
+      <td>RTX 대비 낮음</td>
+    </tr>
+    <tr>
+      <td>기능</td>
+      <td>AI 프레임 생성 중심</td>
+      <td>효율 개선 + FSR</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-추천-조합">✅ 추천 조합</h2>
+
+<ul>
+  <li><strong>최고 성능 + AI 게임 경험</strong> → <strong>RTX 50 시리즈 (특히 5090/5080)</strong></li>
+  <li><strong>합리적 가격+ VRAM + 레이 트레이싱 퍼포먼스</strong> → <strong>RX 9070 XT</strong></li>
+  <li><strong>가성비 + 중급 게이밍</strong> → <strong>RX 9060 XT 16GB</strong></li>
+</ul>]]></content><author><name>DongGeon Park</name><email>happyon8@gmail.com</email></author><category term="하드웨어" /><category term="그래픽카드" /><category term="그래픽카드" /><category term="GPU" /><category term="RTX5090" /><category term="RTX5080" /><category term="RTX5070" /><category term="RX9070" /><category term="RX9060 게임성능" /><category term="벤치마크" /><summary type="html"><![CDATA[아래는 RTX 50 시리즈와 AMD RX 9000 시리즈의 비교 정리입니다. 최신 리뷰와 벤치마크를 기반으로 성능, 기능, 가격 등 주요 항목의 차이를 쉽게 확인할 수 있습니다.]]></summary></entry></feed>

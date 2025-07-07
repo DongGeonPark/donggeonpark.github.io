@@ -1,6 +1,7 @@
 ---
 layout: home
 author_profile: true
+title: 인사말
 ---
 
 ## 안녕하세요! 👋

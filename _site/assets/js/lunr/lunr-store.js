@@ -34,4 +34,10 @@ var store = [{
         "tags": ["블로그","시작","마음가짐","기록"],
         "url": "/%EC%9D%BC%EC%83%81/daily-thoughts/",
         "teaser": "/assets/images/favicon.png"
+      },{
+        "title": "그래픽카드 비교 - RTX 50 시리즈 vs AMD RX 9000 시리즈",
+        "excerpt":"아래는 RTX 50 시리즈와 AMD RX 9000 시리즈의 비교 정리입니다. 최신 리뷰와 벤치마크를 기반으로 성능, 기능, 가격 등 주요 항목의 차이를 쉽게 확인할 수 있습니다. 🚀 아키텍처 및 출시 정보 NVIDIA RTX 50 시리즈 아키텍처: Blackwell (CES 2025 발표, 1월 30일 RTX 5080/5090 출시) 모델: RTX 5090 (엔thu), RTX 5080 (하이엔드), RTX 5070...","categories": ["하드웨어","그래픽카드"],
+        "tags": ["그래픽카드","GPU","RTX5090","RTX5080","RTX5070","RX9070","RX9060 게임성능","벤치마크"],
+        "url": "/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4/%EA%B7%B8%EB%9E%98%ED%94%BD%EC%B9%B4%EB%93%9C/gpu-comparison/",
+        "teaser": "/assets/images/favicon.png"
       }]
